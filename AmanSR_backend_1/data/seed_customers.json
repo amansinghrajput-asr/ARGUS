@@ -1,0 +1,18 @@
+[
+  {
+    "customer_id": "cust_101",
+    "name": "Sarah Connor",
+    "email": "sarah.connor@example.com",
+    "phone": "+1-555-0199",
+    "tier": "vip",
+    "account_status": "active"
+  },
+  {
+    "customer_id": "cust_102",
+    "name": "John Doe",
+    "email": "john.doe@example.com",
+    "phone": "+1-555-0142",
+    "tier": "standard",
+    "account_status": "active"
+  }
+]

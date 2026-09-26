@@ -1,0 +1,20 @@
+[
+  {
+    "article_id": "faq_001",
+    "title": "Return & Refund Policy Window",
+    "category": "refunds",
+    "content": "Customers can request a return within 30 days of delivery. Refunds are processed back to the original payment method within 3 to 5 business days after receipt.",
+    "tags": ["refund", "return", "policy", "window"],
+    "is_active": true,
+    "version": 1
+  },
+  {
+    "article_id": "faq_002",
+    "title": "Tracking Delayed Deliveries",
+    "category": "shipping",
+    "content": "If a shipment tracking status has not updated for more than 48 hours, support can file an automated courier carrier escalation inquiry.",
+    "tags": ["shipping", "tracking", "delay", "carrier"],
+    "is_active": true,
+    "version": 1
+  }
+]
