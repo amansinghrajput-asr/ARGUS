@@ -1,7 +1,8 @@
 """Business logic and orchestration service skeletons."""
 
 from .case_service import CaseService
-from .handoff_service import HandoffService
 from .context_service import ContextService
+from .customer_service import CustomerService
+from .handoff_service import HandoffService
 
-__all__ = ["CaseService", "HandoffService", "ContextService"]
+__all__ = ["CaseService", "HandoffService", "ContextService", "CustomerService"]
