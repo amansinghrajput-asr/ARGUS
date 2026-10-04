@@ -1,7 +1,7 @@
 """Data schemas and domain models for Backend 1."""
 
 from .customer import CustomerBase, CustomerCreate, CustomerResponse
-from .order import OrderBase
+from .order import OrderBase, OrderCreate, OrderItem, OrderResponse
 from .case import ComplaintCaseBase
 from .history import ConversationHistoryBase
 from .knowledge import FAQArticleBase
@@ -11,6 +11,9 @@ __all__ = [
     "CustomerCreate",
     "CustomerResponse",
     "OrderBase",
+    "OrderItem",
+    "OrderCreate",
+    "OrderResponse",
     "ComplaintCaseBase",
     "ConversationHistoryBase",
     "FAQArticleBase",

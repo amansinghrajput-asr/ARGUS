@@ -4,5 +4,6 @@ from .case_service import CaseService
 from .context_service import ContextService
 from .customer_service import CustomerService
 from .handoff_service import HandoffService
+from .order_service import OrderService
 
-__all__ = ["CaseService", "HandoffService", "ContextService", "CustomerService"]
+__all__ = ["CaseService", "HandoffService", "ContextService", "CustomerService", "OrderService"]
