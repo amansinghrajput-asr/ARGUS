@@ -3,7 +3,15 @@
 from .customer import CustomerBase, CustomerCreate, CustomerResponse
 from .order import OrderBase, OrderCreate, OrderItem, OrderResponse
 from .case import CaseCreate, CaseResponse, CaseUpdate, ComplaintCaseBase
-from .history import ConversationHistoryBase
+from .history import (
+    ConversationHistoryBase,
+    ConversationHistoryResponse,
+    ConversationTurn,
+    HumanHandoffResponse,
+    NoteCreate,
+    SpecialistInvestigationNote,
+    TurnCreate,
+)
 from .knowledge import FAQArticleBase
 
 __all__ = [
@@ -19,5 +27,11 @@ __all__ = [
     "CaseUpdate",
     "CaseResponse",
     "ConversationHistoryBase",
+    "ConversationHistoryResponse",
+    "ConversationTurn",
+    "SpecialistInvestigationNote",
+    "TurnCreate",
+    "NoteCreate",
+    "HumanHandoffResponse",
     "FAQArticleBase",
 ]
