@@ -12,7 +12,13 @@ from .history import (
     SpecialistInvestigationNote,
     TurnCreate,
 )
-from .knowledge import FAQArticleBase
+from .knowledge import (
+    ArticleCreate,
+    ArticleResponse,
+    FAQArticleBase,
+    FAQArticleCreate,
+    FAQArticleResponse,
+)
 
 __all__ = [
     "CustomerBase",
@@ -34,4 +40,8 @@ __all__ = [
     "NoteCreate",
     "HumanHandoffResponse",
     "FAQArticleBase",
+    "ArticleCreate",
+    "ArticleResponse",
+    "FAQArticleCreate",
+    "FAQArticleResponse",
 ]
